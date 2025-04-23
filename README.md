@@ -1,1 +1,1 @@
-# legal-pages
+# legal-documents
