@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting to App...</title>
+    <meta http-equiv="refresh" content="0;url=noexpire://success">
+    <script>
+      // Extra: Also support session_id passing if needed
+      var session = new URLSearchParams(window.location.search).get("session_id");
+      if (session) {
+        window.location = "noexpire://success?session_id=" + session;
+      } else {
+        window.location = "noexpire://success";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to your app...</p>
+  </body>
+</html>
