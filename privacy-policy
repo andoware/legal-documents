@@ -1,0 +1,27 @@
+# Privacy Policy
+
+Indie Revenue Dashboard is a Chrome extension designed to help indie developers view revenue analytics from services such as Stripe directly inside their browser.
+
+## Data Collection
+
+This extension does not collect, store, or transmit personal user data to any external servers operated by the developer.
+
+## Local Storage
+
+User configuration such as API keys and preferences are stored locally using Chrome's `chrome.storage.local` API.
+
+This data remains on the user's device and is only used by the extension to communicate directly with provider APIs such as Stripe.
+
+## External Requests
+
+The extension may send requests directly from the user's browser to third-party APIs (such as Stripe) using credentials provided by the user.
+
+No data is transmitted to servers operated by the developer.
+
+## Data Sharing
+
+This extension does not sell, transfer, or share user data with third parties.
+
+## Contact
+
+If you have questions about this privacy policy you can contact us at hello@andoware.com
