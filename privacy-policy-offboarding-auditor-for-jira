@@ -1,0 +1,141 @@
+# Privacy Policy
+
+**Last updated: 14 August 2026**
+
+This Privacy Policy describes how **Andoware** handles information when you use **Offboarding Auditor for Jira**.
+
+Offboarding Auditor for Jira is an Atlassian Forge app designed to help Jira administrators identify Jira assets and responsibilities that remain associated with inactive or deleted user accounts.
+
+## Data We Process
+
+To perform an audit, the app may process information available through your Jira site, including:
+
+- Atlassian account IDs
+- User display names
+- User active or inactive status
+- User avatar URLs when searching for an active user during a handover
+- Saved filter names and metadata
+- Dashboard names and metadata
+- Board names and metadata
+- Project names, keys and lead information
+- Component names and lead information
+- Sharing, favourite and related asset metadata required to display audit results
+
+Jira may return an email address as part of some user information. Offboarding Auditor for Jira does not intentionally display, persist or export email addresses.
+
+The app does **not** access or store Jira issue contents or saved-filter JQL for the purposes of its audit.
+
+## How We Use Data
+
+The app processes Jira data only as necessary to provide its functionality, including:
+
+- Identifying inactive or deleted Jira accounts
+- Identifying filters and dashboards associated with those accounts
+- Identifying boards that depend on affected filters
+- Identifying projects and components with inactive leads
+- Displaying audit results to Jira administrators
+- Supporting administrator-confirmed filter ownership handover
+- Verifying guided dashboard handovers
+- Generating CSV exports requested by the administrator
+- Saving limited audit history within the app
+
+The app does not use customer data for advertising, profiling or marketing.
+
+## Data Storage
+
+Offboarding Auditor for Jira is built using the Atlassian Forge platform.
+
+The app does not operate its own external application servers or databases for customer Jira data.
+
+Limited information may be stored using Atlassian Forge-hosted storage, including:
+
+- Saved audit history
+- Asset names and metadata included in saved audit results
+- Relevant account IDs and display names associated with affected assets
+- Audit timestamps and summary counts
+- The app's onboarding-completed setting
+
+The app keeps a maximum of **25 saved audit records per Jira installation**. When this limit is exceeded, the oldest saved record is removed.
+
+Jira administrators can also delete individual saved audit records or clear saved audit history from within the app.
+
+Forge-hosted data is stored and processed using Atlassian's infrastructure and supported data-residency mechanisms. The location of Forge-hosted data may depend on the customer's Atlassian data-residency configuration and Atlassian's supported hosting locations.
+
+## External Data Transfers
+
+Offboarding Auditor for Jira does **not** send Jira customer data to servers operated by Andoware.
+
+The app communicates with Atlassian Jira APIs and Atlassian Forge services in order to provide its functionality.
+
+The app does not include third-party analytics, advertising trackers or telemetry services.
+
+## Data Sharing
+
+Andoware does not sell customer or personal data.
+
+The app does not share Jira customer data with advertising networks, data brokers or unrelated third parties.
+
+Data is processed through Atlassian services as necessary for the app to operate on the Atlassian Forge platform.
+
+## CSV Exports
+
+When a Jira administrator chooses to export audit results, the CSV file is generated for that administrator from the current audit data.
+
+CSV exports may contain information such as:
+
+- Asset names and IDs
+- User display names
+- Atlassian account IDs
+- Project or filter information
+- Audit timestamps and coverage information
+
+Email addresses, Jira issue contents and saved-filter JQL are not intentionally included in CSV exports.
+
+Once a CSV file has been exported, responsibility for storing, sharing and deleting that downloaded file belongs to the customer or administrator who created it.
+
+## App Permissions and Changes to Jira
+
+Running an audit is read-only with respect to Jira data.
+
+Some guided handover features may make a change to Jira only after an administrator explicitly confirms the action. For example, an administrator may choose to reassign ownership of an affected saved filter to an active Jira user.
+
+The app does not automatically perform bulk ownership changes or modify Jira assets simply because an audit has been run.
+
+## Security
+
+Offboarding Auditor for Jira relies on Atlassian Forge for application execution, authentication and access to Jira APIs.
+
+Jira API operations are performed using the permissions granted to the app and the permissions of the Jira user performing the relevant action.
+
+The app does not receive or store Atlassian passwords or access tokens directly.
+
+## Data Retention and Deletion
+
+Saved audit history is retained within Forge-hosted storage until:
+
+- it is deleted by a Jira administrator,
+- all saved history is cleared by an administrator, or
+- it is removed automatically as part of the app's 25-record history limit.
+
+Other Jira information retrieved during a live audit is used to produce the audit result and is not intentionally persisted unless it forms part of a saved audit-history record.
+
+## Your Rights and Requests
+
+If you have a question about personal data contained in your organisation's Jira site, you should normally contact your organisation's Jira or Atlassian administrator.
+
+For questions specifically about Offboarding Auditor for Jira, this Privacy Policy, or data stored by the app, contact:
+
+**hello@andoware.com**
+
+## Changes to This Privacy Policy
+
+This Privacy Policy may be updated if the app's functionality or data-handling practices change.
+
+Material changes will be reflected by updating the date shown at the top of this policy.
+
+## Contact
+
+For privacy questions relating to Offboarding Auditor for Jira:
+
+**Andoware**  
+**Email:** hello@andoware.com
